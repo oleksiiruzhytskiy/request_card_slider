@@ -1,11 +1,7 @@
-import { useEffect } from "react";
 import { ImageSlider } from "../ImageSlider/ImageSlider";
 import "./ProjectGrid.css";
 
 export const ProjectGrid = ({ projects }) => {
-  useEffect(() => {
-    console.log("projects", projects);
-  }, [projects]);
 
   const formatNumberWithDots = (num) => {
     if (typeof num !== "number") return num; 

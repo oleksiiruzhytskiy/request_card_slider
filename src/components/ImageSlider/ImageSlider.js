@@ -4,7 +4,7 @@ import "./ImageSlider.css";
 export const ImageSlider = ({ images }) => {
   const [showButton, setShowButton] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [imageSrc, setImageSrc] = useState(''); // Default to the first image
+  const [imageSrc, setImageSrc] = useState(images[0].original); // Default to the first image
 
   useEffect(() => {
     const updateImage = () => {

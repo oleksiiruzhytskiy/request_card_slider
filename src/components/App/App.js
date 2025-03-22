@@ -52,7 +52,6 @@ const App = () => {
       if (!data.projects || !Array.isArray(data.projects)) {
         throw new Error("Invalid API response format.");
       }
-
       setProjects(data.projects);
       setTotalPages(data.totalPages || 0);
     } catch (error) {
