@@ -27,7 +27,7 @@ export const ProjectGrid = ({ projects }) => {
             </div>
           </div>
           <div className="location-container">
-            <img className="marker" src="/marker.png" alt="Marker" />
+            <img className="marker" src="https://img.icons8.com/ios7/600w/marker.png" alt="Marker" />
             <span>{project.generalInfo.province}</span>
           </div>
           <div className="info-container">
