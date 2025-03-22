@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/request_card_slider/static/css/main.a93c2838.css",
+    "main.js": "/request_card_slider/static/js/main.688dc3df.js",
+    "index.html": "/request_card_slider/index.html",
+    "main.a93c2838.css.map": "/request_card_slider/static/css/main.a93c2838.css.map",
+    "main.688dc3df.js.map": "/request_card_slider/static/js/main.688dc3df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a93c2838.css",
+    "static/js/main.688dc3df.js"
+  ]
+}
